@@ -2,8 +2,8 @@
 
 body {
   margin: 0;
-  background-color: #F4F0E8;
-  color: #2E3440;
+  background-color: #f4f0e8;
+  color: #2e3440;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
@@ -11,8 +11,8 @@ body {
 /* Kop bovenaan */
 
 header {
-  background-color: #2E3440;
-  color: #F4F0E8;
+  background-color: #2e3440;
+  color: #f4f0e8;
   padding: 2.5em 1.5em 1.5em;
 }
 
@@ -26,7 +26,7 @@ nav ul {
 }
 
 header h1 {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-weight: 700;
   font-size: 2.8em;
   line-height: 1.1;
@@ -47,9 +47,9 @@ header h1 {
 }
 
 .missie {
-  background-color: #F4F0E8;
-  color: #2E3440;
-  font-family: 'Urbanist', sans-serif;
+  background-color: #f4f0e8;
+  color: #2e3440;
+  font-family: "Urbanist", sans-serif;
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.5;
@@ -74,25 +74,27 @@ nav li {
 }
 
 nav a {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-weight: 400;
   font-size: 0.95em;
-  color: #F4F0E8;
+  color: #f4f0e8;
   text-decoration: none;
   padding: 0.4em 0.5em;
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
 nav a:hover,
 nav a:focus {
-  background-color: #F4F0E8;
-  color: #2E3440;
+  background-color: #f4f0e8;
+  color: #2e3440;
   text-decoration: underline;
 }
 
 nav a.actief {
-  background-color: #F4F0E8;
-  color: #2E3440;
+  background-color: #f4f0e8;
+  color: #2e3440;
   text-decoration: none;
 }
 
@@ -105,19 +107,19 @@ main {
 }
 
 main a {
-  color: #2E3440;
+  color: #2e3440;
   text-decoration: underline;
   transition: color 0.2s;
 }
 
 main a:hover,
 main a:focus {
-  color: #4C566A;
+  color: #4c566a;
   text-decoration: none;
 }
 
 h2 {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-weight: 700;
   font-size: 1.4em;
   line-height: 1.25;
@@ -139,13 +141,13 @@ h2 {
 
 /* Deel over vrijheid, met perzik vlak en meer ruimte */
 .deel-vrijheid {
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.8;
   max-width: 28em;
   margin-top: 2.5em;
-  background-color: #FBE3CF;
+  background-color: #fbe3cf;
   padding: 1.5em 1em;
 }
 
@@ -200,7 +202,7 @@ footer {
 }
 
 footer p {
-  color: #4C566A;
+  color: #4c566a;
   font-size: 0.85em;
   margin: 0;
 }
