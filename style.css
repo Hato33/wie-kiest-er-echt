@@ -1,5 +1,4 @@
-/* Wie kiest er echt - Tolga Kece */
-/* Kleuren: donker #2E3440, grijsblauw #4C566A, licht #F4F0E8, perzik #FBE3CF (deel over vrijheid) */
+/* Kleuren: donker #2E3440, grijsblauw #4C566A, licht #F4F0E8, perzik #FBE3CF */
 
 body {
   margin: 0;
@@ -9,7 +8,7 @@ body {
   line-height: 1.5;
 }
 
-/* ---------- Kop ---------- */
+/* Kop bovenaan */
 
 header {
   background-color: #2E3440;
@@ -17,7 +16,7 @@ header {
   padding: 2.5em 1.5em 1.5em;
 }
 
-/* alles in de kop staat in dezelfde kolom als de tekst eronder */
+/* Kop in dezelfde kolom als de tekst */
 header h1,
 header p,
 nav ul {
@@ -60,7 +59,7 @@ header h1 {
   max-width: 31.33em;
 }
 
-/* ---------- Menu ---------- */
+/* Menu */
 
 nav ul {
   display: flex;
@@ -97,7 +96,7 @@ nav a.actief {
   text-decoration: none;
 }
 
-/* ---------- Tekst ---------- */
+/* Tekst, links en kopjes */
 
 main {
   max-width: 40em;
@@ -126,7 +125,7 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-/* index.html */
+/* Manifest, deel over sturing */
 
 .deel-sturing {
   font-family: Helvetica, Arial, sans-serif;
@@ -138,6 +137,7 @@ h2 {
   margin-bottom: 1.2em;
 }
 
+/* Deel over vrijheid, met perzik vlak en meer ruimte */
 .deel-vrijheid {
   font-family: 'Urbanist', sans-serif;
   font-weight: 300;
@@ -154,12 +154,12 @@ h2 {
   margin-bottom: 0.3em;
 }
 
-/* witregel tussen groepjes regels */
+/* Witregel tussen groepjes */
 .deel-vrijheid .nieuw-blok {
   margin-top: 1.6em;
 }
 
-/* achtergrond.html */
+/* Pagina Achtergrond */
 
 .artikel {
   line-height: 1.5;
@@ -169,12 +169,12 @@ h2 {
   font-size: 1.9em;
 }
 
-/* eerste kopje bovenaan main, zonder extra ruimte erboven */
+/* Eerste kopje, zonder ruimte erboven */
 .eerste-kop {
   margin-top: 0;
 }
 
-/* bronnen.html */
+/* Pagina Bronnen */
 
 .bronnen ul {
   list-style: none;
@@ -186,12 +186,12 @@ h2 {
   margin-bottom: 1em;
 }
 
-/* lange webadressen mogen overal afbreken, zodat ze op een telefoon passen */
+/* Lange webadressen passen ook op een telefoon */
 .bronnen a {
   overflow-wrap: anywhere;
 }
 
-/* ---------- Voet ---------- */
+/* Footer onderaan */
 
 footer {
   max-width: 40em;
