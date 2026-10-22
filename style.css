@@ -161,6 +161,36 @@ h2 {
   margin-top: 1.6em;
 }
 
+/* Kopje in het perzik vlak */
+.deel-vrijheid h2 {
+  font-size: 1.1667em;
+  margin-top: 0;
+}
+
+/* Oproep in een licht vlak met rand */
+.deel-vrijheid .oproep {
+  background-color: #f4f0e8;
+  color: #2e3440;
+  border: 2px solid #2e3440;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* Kopje van de oproep */
+.oproep h3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* Tekst in de oproep */
+.deel-vrijheid .oproep p {
+  margin-bottom: 0;
+}
+
 /* Pagina Achtergrond */
 
 .artikel {
@@ -171,7 +201,7 @@ h2 {
   font-size: 1.9em;
 }
 
-/* Eerste kopje, zonder ruimte erboven */
+/* Eerste kopje van een pagina */
 .eerste-kop {
   margin-top: 0;
 }
@@ -209,10 +239,38 @@ footer p {
 
 /* Beelden */
 
-.beeld-herhaling,
 .beeld-tijdlijn {
   display: block;
   width: 100%;
   max-width: 360px;
   margin: 2em 0;
+}
+
+/* Overgang tussen sturing en vrijheid */
+.overgang {
+  margin: 2em 0;
+}
+
+/* Video en stil beeld */
+.overgang video,
+.overgang-stil {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Stil beeld staat normaal verborgen */
+.overgang .overgang-stil {
+  display: none;
+}
+
+/* Stil beeld voor wie geen beweging wil */
+@media (prefers-reduced-motion: reduce) {
+  .overgang video {
+    display: none;
+  }
+
+  .overgang .overgang-stil {
+    display: block;
+  }
 }
