@@ -1,4 +1,4 @@
-/* Kleuren: donker #2E3440, grijsblauw #4C566A, licht #F4F0E8, perzik #FBE3CF */
+/* Kleuren: donker #2e3440, grijsblauw #4c566a, licht #f4f0e8, perzik #fbe3cf */
 
 body {
   margin: 0;
@@ -32,7 +32,7 @@ header h1 {
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 0.3em;
-  max-width: 28.57em;
+  max-width: 28.57em; /* 40em gedeeld door 1,4 */
 }
 
 /* Het woord echt op een eigen regel, groeit mee met het scherm */
@@ -49,8 +49,8 @@ header h1 {
   font-weight: 400;
   font-size: 0.95em;
   margin-top: 0;
-  margin-bottom: 1.58em;
-  max-width: 42.11em;
+  margin-bottom: 1.58em; /* 1,5em gedeeld door 0,95 */
+  max-width: 42.11em; /* 40em gedeeld door 0,95 */
 }
 
 .missie {
@@ -63,7 +63,7 @@ header h1 {
   padding: 1em;
   margin-top: 0;
   margin-bottom: 1.5em;
-  max-width: 36.09em;
+  max-width: 36.09em; /* 40em gedeeld door 1,05, min 2em padding */
 }
 
 /* Menu */
@@ -170,7 +170,7 @@ h2 {
 
 /* Kopje in het perzik vlak */
 .deel-vrijheid h2 {
-  font-size: 1.1667em;
+  font-size: 1.1667em; /* 1,4em gedeeld door 1,2 */
   margin-top: 0;
 }
 
@@ -199,10 +199,6 @@ h2 {
 }
 
 /* Pagina Achtergrond */
-
-.artikel {
-  line-height: 1.5;
-}
 
 .paginatitel {
   font-size: 1.9em;
