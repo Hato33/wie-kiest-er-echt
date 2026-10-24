@@ -28,22 +28,29 @@ nav ul {
 header h1 {
   font-family: "Space Mono", monospace;
   font-weight: 700;
-  font-size: 2.8em;
+  font-size: 1.4em;
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 0.3em;
-  max-width: 14.3em;
+  max-width: 28.57em;
 }
 
-.naam {
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
+/* Het woord echt op een eigen regel, groeit mee met het scherm */
+.titel-groot {
+  display: block;
+  font-size: 20vw;
+  line-height: 0.85;
+  margin-left: -0.06em;
 }
 
+/* Slogan onder de titel */
 .slogan {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 0.95em;
   margin-top: 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.58em;
+  max-width: 42.11em;
 }
 
 .missie {
@@ -51,12 +58,12 @@ header h1 {
   color: #2e3440;
   font-family: "Urbanist", sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1.05em;
   line-height: 1.5;
   padding: 1em;
   margin-top: 0;
   margin-bottom: 1.5em;
-  max-width: 31.33em;
+  max-width: 36.09em;
 }
 
 /* Menu */
